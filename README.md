@@ -1,5 +1,3 @@
-For your GitHub `README.md`, you can include the following sections. They explain **Milestone 1**, the **features you built**, the **tech stack**, and **how to run the notebook**, including JWT, ngrok, and secrets.
-
 ---
 
 # Franchise Analytics & Management Portal
