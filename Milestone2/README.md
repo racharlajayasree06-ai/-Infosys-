@@ -1,138 +1,355 @@
-# FranchiseOps AI — Intelligent Franchise Operations Platform
+# 🚀 FranchiseOps AI – Intelligent Franchise Operations Platform (Milestone 2)
 
-A full-stack, multi-tenant franchise intelligence and operations platform designed for managing Indian outlet chains, predicting setup costs with Machine Learning, evaluating weather-impacted footfall, and deploying multi-agent AI assistants.
+> **Milestone 2 Submission**
 
----
-
-## 🌟 Key Features
-
-### 🔐 1. Secure Authentication & Role Management (`AuthPortal`)
-- **Multi-Role Access Control**: Support for **System Admin**, **Regional Director**, and **Outlet Franchisee** profiles.
-- **Security Protections**: Login failure tracking with exponential lockout countdown timer (5 failed attempts trigger lock).
-- **Two-Factor OTP Verification**: Interactive 6-digit OTP request & verification flow with a 30-second resend cooldown timer.
-- **Password Strength Evaluator**: Real-time password health check (uppercase, digits, special characters).
-
-### 🤖 2. Interactive AI Operations Copilot (`AICopilot`)
-- **Multi-Agent Telemetry Assistant**: Get instant answers on setup costs, staffing allocations, weather mitigation strategies, and sales forecasts.
-- **Streaming Response Generator**: Realistic streaming text delivery with quick prompt shortcut pills.
-- **Utilities**: One-click response copying and chat history clearing.
-
-### 📊 3. Machine Learning Setup Pricing Calculator (`MLPricingCalculator`)
-- **XGBoost Setup Cost Predictor**: Establishes setup capital requirements based on square footage, city tier (Tier-1 Metro, Tier-2 Urban, Tier-3 Emerging), employee headcount, and monthly rent.
-- **Cost Distribution Breakdown**: Itemized insights into interior fit-outs, kitchen/POS equipment, working capital reserves, and brand license fees.
-- **ROI Payback Horizon**: Calculates projected payback timeline in months along with model confidence scoring.
-
-### 🧠 4. LLM Test Lab (`LLMTestLabView`)
-- **Prompt Engineering Workspace**: Test and evaluate prompts against model architectures.
-- **Hyperparameter Tuning**: Adjust Temperature, Top-P, Top-K, and Max Token constraints.
-- **Performance Logs**: Compare latency, token generation speed, and response accuracy across test cases.
-
-### 🌤️ 5. Weather Telemetry & Footfall Simulation (`WeatherDemoView`)
-- **Environmental Footfall Forecasting**: Real-time telemetry modeling rain, monsoon precipitation, and extreme temperature impacts on walk-in vs. delivery order volume across Indian metros.
-- **Actionable Operations Playbooks**: Automated shift recommendations for dispatch and packaging staff during weather disruptions.
-
-### 📍 6. Unsupervised Store Tiering (`KMeansView`)
-- **K-Means Clustering Analysis**: Categorizes outlets into Tier 1 High Revenue, Tier 2 Growing Urban, and Tier 3 Emerging Hubs using multi-dimensional spatial clustering.
-- **Interactive Visualizations**: Scatter graphs and revenue-per-sqft benchmarks.
-
-### ⚙️ 7. System Administration & Audit (`AdminPanelView`)
-- **User Directory Management**: View, filter, edit roles, reset passwords, or lock user accounts.
-- **System Audit Logs**: Real-time timestamped event logs capturing authentication attempts, configuration changes, and operational alerts.
-- **Platform Telemetry**: Database connectivity, API endpoint health, and server uptime monitoring.
+FranchiseOps AI is the **Milestone 2** implementation of a multi-tenant franchise intelligence and operations platform designed for managing Indian franchise outlet chains. This milestone focuses on secure authentication, AI-powered operations assistance, machine learning-based setup cost prediction, weather-driven business intelligence, clustering analytics, and an administrative dashboard for franchise management.
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 Milestone 2 Highlights
 
-- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS v4, Motion (Framer Motion)
-- **Icons**: Lucide React
-- **Data Visualization**: Recharts
-- **AI / LLM Integration**: `@google/genai` (Google Gemini API SDK)
-- **Server Framework**: Express.js with Vite Middleware mode
+This milestone includes:
 
----
+- ✅ Secure Authentication & Role-Based Access Control
+- ✅ Registration with Confirm Password Validation
+- ✅ Password Strength Checker
+- ✅ Login Lockout Protection after Multiple Failed Attempts
+- ✅ OTP Verification with 30-Second Resend Cooldown
+- ✅ AI Operations Copilot
+- ✅ Machine Learning Setup Cost Predictor
+- ✅ LLM Test Lab
+- ✅ Weather & Footfall Simulation
+- ✅ K-Means Store Tier Clustering
+- ✅ Admin Dashboard
+- ✅ User Management
+- ✅ Audit Logs & System Monitoring
 
-## 🚀 Getting Started
+---# 🚀 FranchiseOps AI – Intelligent Franchise Operations Platform
 
-### Prerequisites
-- **Node.js**: v18.0.0 or higher
-- **npm** or **bun**
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd franchise-ops-ai
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**:
-   Copy `.env.example` to `.env` and set your optional API keys:
-   ```bash
-   cp .env.example .env
-   ```
-   Add your Google Gemini API Key:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
-   The application will run on `http://localhost:3000`.
-
-5. **Build for Production**:
-   ```bash
-   npm run build
-   npm start
-   ```
+FranchiseOps AI is a multi-tenant franchise intelligence and operations platform designed to help manage Indian franchise outlet chains. The platform combines Machine Learning, AI-powered assistants, analytics dashboards, and weather-based business intelligence to support smarter operational decisions.
 
 ---
 
-## 📂 Project Structure
+# 🌟 Features
+
+## 🔐 Secure Authentication & Role Management
+- Multi-role login system
+  - System Admin
+  - Regional Director
+  - Outlet Franchisee
+- Secure registration with Confirm Password validation
+- Password strength checker
+- Login attempt tracking
+- Automatic account lock after multiple failed login attempts
+- OTP verification with 30-second resend cooldown
+- Role-based access control
+
+---
+
+## 🤖 AI Operations Copilot
+- AI-powered franchise operations assistant
+- Instant answers for:
+  - Setup cost estimation
+  - Staffing recommendations
+  - Sales forecasting
+  - Weather impact analysis
+- Streaming AI responses
+- Copy responses with one click
+- Clear chat history
+
+---
+
+## 📊 Machine Learning Pricing Calculator
+Predict franchise setup costs using Machine Learning based on:
+
+- Outlet size
+- City Tier
+- Monthly rent
+- Employee count
+
+### Includes
+- Estimated setup investment
+- Cost breakdown
+- ROI payback period
+- Model confidence score
+
+---
+
+## 🧠 LLM Test Lab
+Experiment with different LLM settings.
+
+Features include:
+- Prompt testing
+- Temperature control
+- Top-P
+- Top-K
+- Max Tokens
+- Performance comparison
+- Latency measurement
+
+---
+
+## 🌤️ Weather & Footfall Simulation
+Analyze how weather affects franchise operations.
+
+Supports:
+- Rainfall impact
+- Heatwave impact
+- Delivery vs Walk-in prediction
+- Staff planning recommendations
+- Operational playbooks
+
+---
+
+## 📍 Store Tier Analysis (K-Means Clustering)
+
+Cluster franchise outlets into:
+
+- Tier 1 – High Revenue
+- Tier 2 – Growing Urban
+- Tier 3 – Emerging Markets
+
+Visualizations include:
+- Scatter plots
+- Revenue comparisons
+- Store performance analytics
+
+---
+
+## ⚙️ Admin Dashboard
+
+Admin panel provides:
+
+- User Management
+- Add/Delete Users
+- Lock/Unlock Accounts
+- Reset Passwords
+- Role Management
+- Audit Logs
+- System Health Monitoring
+- API Status
+- Database Status
+- Server Uptime
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Backend
+- Python 3.10+
+- Streamlit
+
+### Database
+- SQLite3
+
+### Machine Learning
+- Pandas
+- NumPy
+- Scikit-Learn
+
+### Visualization
+- Plotly Express
+
+### AI Integration
+- Google Gemini API
+- @google/genai
+
+---
+
+# 📂 Project Structure
 
 ```
+FranchiseOps-AI/
+│
+├── app.py
+├── database.py
+├── franchise_ops.db
+├── requirements.txt
+├── google_colab_run.ipynb
+│
 ├── src/
 │   ├── components/
-│   │   ├── AICopilot.tsx            # Multi-agent AI assistant
-│   │   ├── MLPricingCalculator.tsx  # XGBoost setup pricing calculator
-│   │   ├── AuthPortal.tsx           # Login, signup, 2FA OTP & lockouts
-│   │   ├── Sidebar.tsx              # Main navigation menu
+│   │   ├── AuthPortal.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── AICopilot.tsx
+│   │   ├── MLPricingCalculator.tsx
 │   │   └── views/
-│   │       ├── HomeView.tsx         # Dashboard overview
-│   │       ├── LLMTestLabView.tsx   # LLM prompt playground
-│   │       ├── WeatherDemoView.tsx  # Weather & footfall impact telemetry
-│   │       ├── KMeansView.tsx       # K-Means outlet clustering
-│   │       └── AdminPanelView.tsx   # Admin user & system management
+│   │       ├── HomeView.tsx
+│   │       ├── LLMTestLabView.tsx
+│   │       ├── WeatherDemoView.tsx
+│   │       ├── KMeansView.tsx
+│   │       └── AdminPanelView.tsx
+│   │
 │   ├── data/
-│   │   └── mockData.ts              # Seeded store telemetry & analytics data
 │   ├── utils/
-│   │   └── authUtils.ts             # Auth utilities, local storage & password checks
-│   ├── types.ts                     # Shared TypeScript interfaces
-│   ├── App.tsx                      # Main app orchestrator
-│   └── main.tsx                     # React DOM entry point
-├── metadata.json                    # Application metadata
-├── package.json                     # Dependencies and scripts
-└── vite.config.ts                   # Vite configuration
+│   ├── types.ts
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── metadata.json
+├── package.json
+└── vite.config.ts
 ```
 
 ---
 
-## 🔐 Default Admin Credentials
+# 🚀 Installation
 
-To log into the system for administrative testing:
-- **Username**: `admin`
-- **Password**: `Admin123!`
-- **Role**: System Administrator
+## Prerequisites
+
+- Python 3.10+
+- Node.js 18+
 
 ---
 
-## 📄 License
+## Streamlit Application
 
-This project is open-source and available under the [MIT License](LICENSE).
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Initialize database
+
+```bash
+python database.py
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+
+Open
+
+```
+http://localhost:8501
+```
+
+---
+
+## React Application
+
+Install packages
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+# ☁️ Run in Google Colab
+
+### Install Node.js
+
+```python
+!curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+!apt-get install -y nodejs
+```
+
+### Install Cloudflared
+
+```python
+!wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+!dpkg -i cloudflared-linux-amd64.deb
+```
+
+### Clone Repository
+
+```python
+!git clone https://github.com/YOUR_USERNAME/franchise-ops-ai.git
+%cd franchise-ops-ai
+```
+
+### Install Dependencies
+
+```python
+!npm install
+```
+
+### Run Application
+
+```python
+import subprocess
+import time
+
+process = subprocess.Popen(["npm", "run", "dev"])
+time.sleep(5)
+
+!cloudflared tunnel --url http://localhost:3000
+```
+
+Cloudflare will generate a public HTTPS URL that can be shared for testing.
+
+---
+
+# 🔐 Default Admin Login
+
+| Username | Password | Role |
+|----------|----------|------|
+| admin | Admin123! | System Administrator |
+
+---
+
+# 📈 Core Modules
+
+- Authentication System
+- Admin Dashboard
+- AI Copilot
+- Machine Learning Pricing Calculator
+- Weather Intelligence
+- LLM Test Lab
+- K-Means Clustering
+- Audit Logs
+- User Management
+- Analytics Dashboard
+
+---
+
+# 🎯 Future Enhancements
+
+- Email OTP Integration
+- JWT Authentication
+- PostgreSQL Support
+- Docker Deployment
+- Cloud Hosting
+- Mobile Responsive Dashboard
+- Multi-language Support
+- Real-time Notifications
+- AI Recommendation Engine
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👩‍💻 Developed By
+
+**R. Jayasree**
+
+B.Tech (Computer Science & Information Technology)
+
+AI | Machine Learning | Data Analytics | Full Stack Development
