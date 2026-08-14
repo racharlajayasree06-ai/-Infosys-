@@ -1,6 +1,6 @@
 ---
 
-# Franchise Analytics & Management Portal
+# Agentic AI for Franchise Management System with Performance Monitoring Assistance
 
 ## Milestone 1 – User Authentication & Security
 
