@@ -1,6 +1,0 @@
-{
-  "name": "FranchiseOps AI Portal",
-  "description": "Enterprise Multi-Agent Franchise Intelligence System featuring authentication, role-based access, and operations intelligence.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
