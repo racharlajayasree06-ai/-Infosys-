@@ -775,7 +775,7 @@ We also express our gratitude to our mentor and the Infosys Springboard team for
 ### Team Members
 
 | Name | Role / What They Built | 
-|---|---|---|
+|---|---|
 | **R Jayasree** | AI/ML Model Development & Admin Dashboard |
 | **Divya Sree** | System Integration |
 | **Sanvi Reddy** | UI Development |
