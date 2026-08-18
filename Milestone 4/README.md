@@ -760,7 +760,7 @@ We also express our gratitude to our mentor and the Infosys Springboard team for
 
 > **An intelligent franchise management platform that combines operational analytics, machine learning and AI-assisted decision support to help monitor and improve franchise performance.**
 > 
-##Team Context
+### Team Context
 
 ### Internship
 
