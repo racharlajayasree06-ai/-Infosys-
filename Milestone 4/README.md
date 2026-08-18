@@ -527,7 +527,7 @@ The administrator can review relevant AI Copilot activity and chat information.
 
 ### 1. Login Screen
 
-<img width="938" height="413" alt="Screenshot 2026-08-16 235213" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-18 235514.png" />
+"C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\login page (1).png"
 
 ### 2. Main Dashboard
 <img width="932" height="420" alt="Screenshot 2026-08-16 235551" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 000324.png" />
