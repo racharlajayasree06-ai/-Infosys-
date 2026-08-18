@@ -187,7 +187,7 @@ The application contains nine specialised intelligence modules.
 ---
 
 ## Agent 1 — Workforce Intelligence
-![Franchise Management Dashboard](images/Screenshot 2026-08-19 004513.png".png)
+![Franchise Management Dashboard](images/Screenshot 2026-08-19 004513.png)
 
 
 This module focuses on employee-related performance and retention analysis.
