@@ -4,8 +4,6 @@
 
 > **An AI-powered franchise management platform designed to analyse business performance, identify operational issues, and assist decision-making across multiple franchise outlets.**
 
-**Infosys Springboard Internship — Batch 1**
-
 ---
 
 ## Table of Contents
@@ -527,23 +525,15 @@ The administrator can review relevant AI Copilot activity and chat information.
 
 ### 1. Login Screen
 
-"C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\login page (1).png"
-
 ### 2. Main Dashboard
-<img width="932" height="420" alt="Screenshot 2026-08-16 235551" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 000324.png" />
 
 ### 3. Agent Screen
-<img width="933" height="419" alt="Screenshot 2026-08-16 235925" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 000701.png" />
 
 ### 4. AI Copilot
-<img width="935" height="416" alt="Screenshot 2026-08-17 000255" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 001337.png" />
-
 
 ### 5. Admin Dashboard
-<img width="926" height="408" alt="Screenshot 2026-08-17 000414" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 001552.png" />
 
 ### 6. OTP / Password Recovery
-<img width="1600" height="695" alt="WhatsApp Image 2026-08-16 at 8 38 54 PM (1)" src="C:\Users\R Jayasree\OneDrive\Pictures\Screenshots\Screenshot 2026-08-19 001733.png" />
 
 ---
 
@@ -769,4 +759,27 @@ We also express our gratitude to our mentor and the Infosys Springboard team for
 ## Agentic AI for Franchise Management System with Performance Monitoring Assistance
 
 > **An intelligent franchise management platform that combines operational analytics, machine learning and AI-assisted decision support to help monitor and improve franchise performance.**
+> 
+##Team Context
+
+### Internship
+
+**Infosys Springboard Internship — Batch 1**
+
+### Mentor
+
+| Name | Designation |
+|---|---|
+| **Mohamedsipli M** | Infosys Springboard Mentor |
+
+### Team Members
+
+| Name | Role / What They Built | 
+|---|---|---|
+| **R Jayasree** | AI/ML Model Development & Admin Dashboard |
+| **Divya Sree** | System Integration |
+| **Sanvi Reddy** | UI Development |
+
+
+---
 
