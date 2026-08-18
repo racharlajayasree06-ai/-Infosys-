@@ -112,5 +112,3 @@ The application uses **ngrok** to expose the local Streamlit server to the inter
 * Email verification during registration
 * Database migration to MySQL/PostgreSQL
 * Cloud deployment (AWS/Azure/GCP)
-
-This format is suitable for a GitHub repository and clearly explains what Milestone 1 covers, the technologies used, how security is implemented, and how someone can run your project.
